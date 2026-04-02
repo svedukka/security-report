@@ -39,7 +39,7 @@
 <body>
     <div class="header">
         <h1>Critical Security Vulnerabilities</h1>
-        <div class="header-meta">Last updated: April 01, 2026 at 07:08 UTC &nbsp;·&nbsp; Auto-refreshes daily via GitHub Actions</div>
+        <div class="header-meta">Last updated: April 02, 2026 at 07:00 UTC &nbsp;·&nbsp; Auto-refreshes daily via GitHub Actions</div>
     </div>
     <div class="sources-bar">
         <span>Sources:</span>
@@ -49,6 +49,18 @@
     <div class="content">
         <div class="count-bar">Showing 10 vulnerabilities added to CISA KEV in the last 30 days</div>
         
+        <div class="vuln-card high">
+            <div class="vuln-header">
+                <div>
+                    <div class="cve-id">CVE-2026-5281</div>
+                    <div class="vuln-product">Google — Dawn</div>
+                </div>
+                <div class="cvss-badge">8.8 &mdash; HIGH</div>
+            </div>
+            <div class="vuln-desc">Google Dawn contains an use-after-free vulnerability that could allow a remote attacker who had compromised the renderer process to execute arbitrary code via a crafted HTML page. This vulnerability could affect multiple Chromium-based products including, but not limited to, Google Chrome, Microsoft Edge, and Opera.</div>
+            <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
+            <div class="vuln-meta">Added: 2026-04-01 &nbsp;·&nbsp; CISA due date: 2026-04-15 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
+        </div>
         <div class="vuln-card critical">
             <div class="vuln-header">
                 <div>
@@ -156,18 +168,6 @@
             <div class="vuln-desc">Apple Safari, iOS, watchOS, visionOS, iPadOS, macOS, and tvOS contain a buffer overflow vulnerability that could allow the processing of maliciously crafted web content which may lead to memory corruption.</div>
             <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
             <div class="vuln-meta">Added: 2026-03-20 &nbsp;·&nbsp; CISA due date: 2026-04-03 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
-        </div>
-        <div class="vuln-card critical">
-            <div class="vuln-header">
-                <div>
-                    <div class="cve-id">CVE-2026-20131</div>
-                    <div class="vuln-product">Cisco — Secure Firewall Management Center (FMC)</div>
-                </div>
-                <div class="cvss-badge">10.0 &mdash; CRITICAL</div>
-            </div>
-            <div class="vuln-desc">Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management contain a deserialization of untrusted data vulnerability in the web-based management interface that could allow an unauthenticated, remote attacker to execute arbitrary Java code as root on an affected device.</div>
-            <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
-            <div class="vuln-meta">Added: 2026-03-19 &nbsp;·&nbsp; CISA due date: 2026-03-22 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
         </div>
     </div>
     <footer>Data from CISA KEV &amp; NIST NVD &nbsp;·&nbsp; Updated automatically every day &nbsp;·&nbsp; Free &amp; open source</footer>
