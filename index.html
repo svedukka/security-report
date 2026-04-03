@@ -39,7 +39,7 @@
 <body>
     <div class="header">
         <h1>Critical Security Vulnerabilities</h1>
-        <div class="header-meta">Last updated: April 02, 2026 at 07:00 UTC &nbsp;·&nbsp; Auto-refreshes daily via GitHub Actions</div>
+        <div class="header-meta">Last updated: April 03, 2026 at 06:57 UTC &nbsp;·&nbsp; Auto-refreshes daily via GitHub Actions</div>
     </div>
     <div class="sources-bar">
         <span>Sources:</span>
@@ -49,6 +49,18 @@
     <div class="content">
         <div class="count-bar">Showing 10 vulnerabilities added to CISA KEV in the last 30 days</div>
         
+        <div class="vuln-card high">
+            <div class="vuln-header">
+                <div>
+                    <div class="cve-id">CVE-2026-3502</div>
+                    <div class="vuln-product">TrueConf — Client</div>
+                </div>
+                <div class="cvss-badge">7.8 &mdash; HIGH</div>
+            </div>
+            <div class="vuln-desc">TrueConf Client contains a download of code without integrity check vulnerability. An attacker who is able to influence the update delivery path can substitute a tampered update payload. If the payload is executed or installed by the updater, this may result in arbitrary code execution in the context of the updating process or user.</div>
+            <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
+            <div class="vuln-meta">Added: 2026-04-02 &nbsp;·&nbsp; CISA due date: 2026-04-16 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
+        </div>
         <div class="vuln-card high">
             <div class="vuln-header">
                 <div>
@@ -81,7 +93,7 @@
                 </div>
                 <div class="cvss-badge">9.8 &mdash; CRITICAL</div>
             </div>
-            <div class="vuln-desc">F5 BIG-IP APM contains an unspecified vulnerability that could allow a threat actor to achieve remote code execution.</div>
+            <div class="vuln-desc">F5 BIG-IP APM contains a stack-based buffer overflow vulnerability that could allow a threat actor to achieve remote code execution.</div>
             <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
             <div class="vuln-meta">Added: 2026-03-27 &nbsp;·&nbsp; CISA due date: 2026-03-30 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
         </div>
@@ -154,18 +166,6 @@
                 <div class="cvss-badge">7.1 &mdash; HIGH</div>
             </div>
             <div class="vuln-desc">Apple watchOS, iOS, iPadOS, macOS, visionOS, and tvOS contain a classic buffer overflow vulnerability which could allow a malicious application to cause unexpected system termination or write kernel memory.</div>
-            <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
-            <div class="vuln-meta">Added: 2026-03-20 &nbsp;·&nbsp; CISA due date: 2026-04-03 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
-        </div>
-        <div class="vuln-card high">
-            <div class="vuln-header">
-                <div>
-                    <div class="cve-id">CVE-2025-31277</div>
-                    <div class="vuln-product">Apple — Multiple Products</div>
-                </div>
-                <div class="cvss-badge">8.8 &mdash; HIGH</div>
-            </div>
-            <div class="vuln-desc">Apple Safari, iOS, watchOS, visionOS, iPadOS, macOS, and tvOS contain a buffer overflow vulnerability that could allow the processing of maliciously crafted web content which may lead to memory corruption.</div>
             <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
             <div class="vuln-meta">Added: 2026-03-20 &nbsp;·&nbsp; CISA due date: 2026-04-03 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
         </div>
