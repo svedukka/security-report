@@ -39,7 +39,7 @@
 <body>
     <div class="header">
         <h1>Critical Security Vulnerabilities</h1>
-        <div class="header-meta">Last updated: April 14, 2026 at 07:17 UTC &nbsp;·&nbsp; Auto-refreshes daily via GitHub Actions</div>
+        <div class="header-meta">Last updated: April 15, 2026 at 07:18 UTC &nbsp;·&nbsp; Auto-refreshes daily via GitHub Actions</div>
     </div>
     <div class="sources-bar">
         <span>Sources:</span>
@@ -49,6 +49,30 @@
     <div class="content">
         <div class="count-bar">Showing 10 vulnerabilities added to CISA KEV in the last 30 days</div>
         
+        <div class="vuln-card high">
+            <div class="vuln-header">
+                <div>
+                    <div class="cve-id">CVE-2009-0238</div>
+                    <div class="vuln-product">Microsoft — Office</div>
+                </div>
+                <div class="cvss-badge">8.8 &mdash; HIGH</div>
+            </div>
+            <div class="vuln-desc">Microsoft Office Excel contains a remote code execution vulnerability that could allow an attacker to take complete control of an affected system if a user opens a specially crafted Excel file that includes a malformed object.</div>
+            <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
+            <div class="vuln-meta">Added: 2026-04-14 &nbsp;·&nbsp; CISA due date: 2026-04-28 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
+        </div>
+        <div class="vuln-card medium">
+            <div class="vuln-header">
+                <div>
+                    <div class="cve-id">CVE-2026-32201</div>
+                    <div class="vuln-product">Microsoft — SharePoint Server</div>
+                </div>
+                <div class="cvss-badge">6.5 &mdash; MEDIUM</div>
+            </div>
+            <div class="vuln-desc">Microsoft SharePoint Server contains an improper input validation vulnerability that allows an unauthorized attacker to perform spoofing over a network.</div>
+            <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
+            <div class="vuln-meta">Added: 2026-04-14 &nbsp;·&nbsp; CISA due date: 2026-04-28 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
+        </div>
         <div class="vuln-card high">
             <div class="vuln-header">
                 <div>
@@ -144,30 +168,6 @@
             <div class="vuln-desc">Ivanti Endpoint Manager Mobile (EPMM) contains a code injection vulnerability that could allow attackers to achieve unauthenticated remote code execution.</div>
             <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
             <div class="vuln-meta">Added: 2026-04-08 &nbsp;·&nbsp; CISA due date: 2026-04-11 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
-        </div>
-        <div class="vuln-card critical">
-            <div class="vuln-header">
-                <div>
-                    <div class="cve-id">CVE-2026-35616</div>
-                    <div class="vuln-product">Fortinet — FortiClient EMS</div>
-                </div>
-                <div class="cvss-badge">9.8 &mdash; CRITICAL</div>
-            </div>
-            <div class="vuln-desc">Fortinet FortiClient EMS contains an improper access control vulnerability that may allow an unauthenticated attacker to execute unauthorized code or commands via crafted requests.</div>
-            <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
-            <div class="vuln-meta">Added: 2026-04-06 &nbsp;·&nbsp; CISA due date: 2026-04-09 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
-        </div>
-        <div class="vuln-card high">
-            <div class="vuln-header">
-                <div>
-                    <div class="cve-id">CVE-2026-3502</div>
-                    <div class="vuln-product">TrueConf — Client</div>
-                </div>
-                <div class="cvss-badge">7.8 &mdash; HIGH</div>
-            </div>
-            <div class="vuln-desc">TrueConf Client contains a download of code without integrity check vulnerability. An attacker who is able to influence the update delivery path can substitute a tampered update payload. If the payload is executed or installed by the updater, this may result in arbitrary code execution in the context of the updating process or user.</div>
-            <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
-            <div class="vuln-meta">Added: 2026-04-02 &nbsp;·&nbsp; CISA due date: 2026-04-16 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
         </div>
     </div>
     <footer>Data from CISA KEV &amp; NIST NVD &nbsp;·&nbsp; Updated automatically every day &nbsp;·&nbsp; Free &amp; open source</footer>
