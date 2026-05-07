@@ -39,7 +39,7 @@
 <body>
     <div class="header">
         <h1>Critical Security Vulnerabilities</h1>
-        <div class="header-meta">Last updated: May 06, 2026 at 08:06 UTC &nbsp;·&nbsp; Auto-refreshes daily via GitHub Actions</div>
+        <div class="header-meta">Last updated: May 07, 2026 at 08:14 UTC &nbsp;·&nbsp; Auto-refreshes daily via GitHub Actions</div>
     </div>
     <div class="sources-bar">
         <span>Sources:</span>
@@ -49,6 +49,18 @@
     <div class="content">
         <div class="count-bar">Showing 10 vulnerabilities added to CISA KEV in the last 30 days</div>
         
+        <div class="vuln-card ">
+            <div class="vuln-header">
+                <div>
+                    <div class="cve-id">CVE-2026-0300</div>
+                    <div class="vuln-product">Palo Alto Networks — PAN-OS</div>
+                </div>
+                <div class="cvss-badge">N/A &mdash; UNKNOWN</div>
+            </div>
+            <div class="vuln-desc">Palo Alto Networks PAN-OS contains an out-of-bounds write vulnerability in the User-ID Authentication Portal (aka Captive Portal) service that can allow an unauthenticated attacker to execute arbitrary code with root privileges on the PA-Series and VM-Series firewalls by sending specially crafted packets.</div>
+            <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.    Until the vendor releases an official fix, the following workaround should be implemented:  - Restrict User-ID Authentication Portal access to only trusted zones.  - Disable User-ID Authentication Portal if not required.</div>
+            <div class="vuln-meta">Added: 2026-05-06 &nbsp;·&nbsp; CISA due date: 2026-05-09 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
+        </div>
         <div class="vuln-card high">
             <div class="vuln-header">
                 <div>
@@ -156,18 +168,6 @@
             <div class="vuln-desc">Marimo contains an pre-authorization remote code execution vulnerability, allowing an unauthenticated attacked to shell access and execute arbitrary system commands.</div>
             <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
             <div class="vuln-meta">Added: 2026-04-23 &nbsp;·&nbsp; CISA due date: 2026-05-07 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
-        </div>
-        <div class="vuln-card high">
-            <div class="vuln-header">
-                <div>
-                    <div class="cve-id">CVE-2026-33825</div>
-                    <div class="vuln-product">Microsoft — Defender</div>
-                </div>
-                <div class="cvss-badge">7.8 &mdash; HIGH</div>
-            </div>
-            <div class="vuln-desc">Microsoft Defender contains an insufficient granularity of access control vulnerability that could allow an authorized attacker to escalate privileges locally.</div>
-            <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
-            <div class="vuln-meta">Added: 2026-04-22 &nbsp;·&nbsp; CISA due date: 2026-05-06 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
         </div>
     </div>
     <footer>Data from CISA KEV &amp; NIST NVD &nbsp;·&nbsp; Updated automatically every day &nbsp;·&nbsp; Free &amp; open source</footer>
