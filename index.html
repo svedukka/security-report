@@ -39,7 +39,7 @@
 <body>
     <div class="header">
         <h1>Critical Security Vulnerabilities</h1>
-        <div class="header-meta">Last updated: May 26, 2026 at 09:35 UTC &nbsp;·&nbsp; Auto-refreshes daily via GitHub Actions</div>
+        <div class="header-meta">Last updated: May 27, 2026 at 09:00 UTC &nbsp;·&nbsp; Auto-refreshes daily via GitHub Actions</div>
     </div>
     <div class="sources-bar">
         <span>Sources:</span>
@@ -49,49 +49,61 @@
     <div class="content">
         <div class="count-bar">Showing 10 vulnerabilities added to CISA KEV in the last 30 days</div>
         
-        <div class="vuln-card ">
+        <div class="vuln-card critical">
+            <div class="vuln-header">
+                <div>
+                    <div class="cve-id">CVE-2026-48172</div>
+                    <div class="vuln-product">LiteSpeed — cPanel Plugin</div>
+                </div>
+                <div class="cvss-badge">9.8 &mdash; CRITICAL</div>
+            </div>
+            <div class="vuln-desc">LiteSpeed cPanel Plugin contains privilege escalation vulnerability that is exposed via the user-end cPanel plugin, which can be abused by any cPanel user account to execute arbitrary scripts with root privileges.</div>
+            <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
+            <div class="vuln-meta">Added: 2026-05-26 &nbsp;·&nbsp; CISA due date: 2026-05-29 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
+        </div>
+        <div class="vuln-card critical">
             <div class="vuln-header">
                 <div>
                     <div class="cve-id">CVE-2026-9082</div>
                     <div class="vuln-product">Drupal — Core</div>
                 </div>
-                <div class="cvss-badge">N/A &mdash; UNKNOWN</div>
+                <div class="cvss-badge">9.8 &mdash; CRITICAL</div>
             </div>
             <div class="vuln-desc">Drupal Core contains a SQL injection vulnerability that could allow for privilege escalation and remote code execution via specially crafted requests sent with the database abstraction API.</div>
             <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
             <div class="vuln-meta">Added: 2026-05-22 &nbsp;·&nbsp; CISA due date: 2026-05-27 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
         </div>
-        <div class="vuln-card ">
+        <div class="vuln-card high">
             <div class="vuln-header">
                 <div>
                     <div class="cve-id">CVE-2025-34291</div>
                     <div class="vuln-product">Langflow — Langflow</div>
                 </div>
-                <div class="cvss-badge">N/A &mdash; UNKNOWN</div>
+                <div class="cvss-badge">8.8 &mdash; HIGH</div>
             </div>
             <div class="vuln-desc">Langflow contains an origin validation error vulnerability in which an overly permissive CORS configuration combined with a refresh token cookie configured as SameSite=None allows a malicious webpage to perform cross-origin requests that include credentials and successfully call the refresh endpoint. This could allow the attacker to execute arbitrary code and achieve full system compromise via obtained tokens that permit access to authenticated endpoints.</div>
             <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
             <div class="vuln-meta">Added: 2026-05-21 &nbsp;·&nbsp; CISA due date: 2026-06-04 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
         </div>
-        <div class="vuln-card ">
+        <div class="vuln-card medium">
             <div class="vuln-header">
                 <div>
                     <div class="cve-id">CVE-2026-34926</div>
                     <div class="vuln-product">Trend Micro — Apex One</div>
                 </div>
-                <div class="cvss-badge">N/A &mdash; UNKNOWN</div>
+                <div class="cvss-badge">6.7 &mdash; MEDIUM</div>
             </div>
             <div class="vuln-desc">Trend Micro Apex One (on-premise) contains a directory traversal vulnerability that could allow a pre-authenticated local attacker to modify a key table on the server to inject malicious code to deploy to agents on affected installations.</div>
             <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
             <div class="vuln-meta">Added: 2026-05-21 &nbsp;·&nbsp; CISA due date: 2026-06-04 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
         </div>
-        <div class="vuln-card ">
+        <div class="vuln-card critical">
             <div class="vuln-header">
                 <div>
                     <div class="cve-id">CVE-2008-4250</div>
                     <div class="vuln-product">Microsoft — Windows</div>
                 </div>
-                <div class="cvss-badge">N/A &mdash; UNKNOWN</div>
+                <div class="cvss-badge">9.8 &mdash; CRITICAL</div>
             </div>
             <div class="vuln-desc">Microsoft Windows contains a buffer overflow vulnerability in the Windows Server Service that allows remote attackers to execute arbitrary code via a crafted RPC request that triggers an overflow during path canonicalization.</div>
             <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
@@ -154,18 +166,6 @@
                 <div class="cvss-badge">7.8 &mdash; HIGH</div>
             </div>
             <div class="vuln-desc">Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally.</div>
-            <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
-            <div class="vuln-meta">Added: 2026-05-20 &nbsp;·&nbsp; CISA due date: 2026-06-03 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
-        </div>
-        <div class="vuln-card medium">
-            <div class="vuln-header">
-                <div>
-                    <div class="cve-id">CVE-2026-45498</div>
-                    <div class="vuln-product">Microsoft — Defender</div>
-                </div>
-                <div class="cvss-badge">4.0 &mdash; MEDIUM</div>
-            </div>
-            <div class="vuln-desc">Microsoft Defender contains an unspecified vulnerability that allows for denial of service.</div>
             <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
             <div class="vuln-meta">Added: 2026-05-20 &nbsp;·&nbsp; CISA due date: 2026-06-03 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
         </div>
