@@ -39,7 +39,7 @@
 <body>
     <div class="header">
         <h1>Critical Security Vulnerabilities</h1>
-        <div class="header-meta">Last updated: May 27, 2026 at 09:00 UTC &nbsp;·&nbsp; Auto-refreshes daily via GitHub Actions</div>
+        <div class="header-meta">Last updated: May 28, 2026 at 09:44 UTC &nbsp;·&nbsp; Auto-refreshes daily via GitHub Actions</div>
     </div>
     <div class="sources-bar">
         <span>Sources:</span>
@@ -49,6 +49,42 @@
     <div class="content">
         <div class="count-bar">Showing 10 vulnerabilities added to CISA KEV in the last 30 days</div>
         
+        <div class="vuln-card critical">
+            <div class="vuln-header">
+                <div>
+                    <div class="cve-id">CVE-2026-48027</div>
+                    <div class="vuln-product">Nx — Nx Console</div>
+                </div>
+                <div class="cvss-badge">9.8 &mdash; CRITICAL</div>
+            </div>
+            <div class="vuln-desc">Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harvested credentials from multiple sources on disk and in memory.</div>
+            <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
+            <div class="vuln-meta">Added: 2026-05-27 &nbsp;·&nbsp; CISA due date: 2026-06-10 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
+        </div>
+        <div class="vuln-card critical">
+            <div class="vuln-header">
+                <div>
+                    <div class="cve-id">CVE-2026-45321</div>
+                    <div class="vuln-product">TanStack — TanStack</div>
+                </div>
+                <div class="cvss-badge">9.6 &mdash; CRITICAL</div>
+            </div>
+            <div class="vuln-desc">TanStack contains an unspecified vulnerability that allowed malicious versions of the product to be published to the npm registry to publish credential-stealing malware under a trusted identity.</div>
+            <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
+            <div class="vuln-meta">Added: 2026-05-27 &nbsp;·&nbsp; CISA due date: 2026-06-10 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
+        </div>
+        <div class="vuln-card critical">
+            <div class="vuln-header">
+                <div>
+                    <div class="cve-id">CVE-2026-8398</div>
+                    <div class="vuln-product">Daemon — Daemon Tools Lite</div>
+                </div>
+                <div class="cvss-badge">9.8 &mdash; CRITICAL</div>
+            </div>
+            <div class="vuln-desc">Daemon Tools contains an unspecified vulnerability that has a high impact on confidentiality, integrity, and availability.</div>
+            <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
+            <div class="vuln-meta">Added: 2026-05-27 &nbsp;·&nbsp; CISA due date: 2026-05-30 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
+        </div>
         <div class="vuln-card critical">
             <div class="vuln-header">
                 <div>
@@ -130,42 +166,6 @@
                 <div class="cvss-badge">8.8 &mdash; HIGH</div>
             </div>
             <div class="vuln-desc">Adobe Acrobat and Reader contain a heap-based buffer overflow vulnerability which could allow remote attackers to execute arbitrary code via a crafted PDF file that triggers memory corruption.</div>
-            <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
-            <div class="vuln-meta">Added: 2026-05-20 &nbsp;·&nbsp; CISA due date: 2026-06-03 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
-        </div>
-        <div class="vuln-card high">
-            <div class="vuln-header">
-                <div>
-                    <div class="cve-id">CVE-2010-0249</div>
-                    <div class="vuln-product">Microsoft — Internet Explorer</div>
-                </div>
-                <div class="cvss-badge">8.8 &mdash; HIGH</div>
-            </div>
-            <div class="vuln-desc">Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code by accessing a pointer associated with a deleted object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.</div>
-            <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
-            <div class="vuln-meta">Added: 2026-05-20 &nbsp;·&nbsp; CISA due date: 2026-06-03 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
-        </div>
-        <div class="vuln-card high">
-            <div class="vuln-header">
-                <div>
-                    <div class="cve-id">CVE-2010-0806</div>
-                    <div class="vuln-product">Microsoft — Internet Explorer</div>
-                </div>
-                <div class="cvss-badge">8.8 &mdash; HIGH</div>
-            </div>
-            <div class="vuln-desc">Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code via vectors involving access to an invalid pointer after the deletion of an object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.</div>
-            <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
-            <div class="vuln-meta">Added: 2026-05-20 &nbsp;·&nbsp; CISA due date: 2026-06-03 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
-        </div>
-        <div class="vuln-card high">
-            <div class="vuln-header">
-                <div>
-                    <div class="cve-id">CVE-2026-41091</div>
-                    <div class="vuln-product">Microsoft — Defender</div>
-                </div>
-                <div class="cvss-badge">7.8 &mdash; HIGH</div>
-            </div>
-            <div class="vuln-desc">Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally.</div>
             <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
             <div class="vuln-meta">Added: 2026-05-20 &nbsp;·&nbsp; CISA due date: 2026-06-03 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
         </div>
