@@ -39,7 +39,7 @@
 <body>
     <div class="header">
         <h1>Critical Security Vulnerabilities</h1>
-        <div class="header-meta">Last updated: June 12, 2026 at 09:55 UTC &nbsp;·&nbsp; Auto-refreshes daily via GitHub Actions</div>
+        <div class="header-meta">Last updated: June 13, 2026 at 08:45 UTC &nbsp;·&nbsp; Auto-refreshes daily via GitHub Actions</div>
     </div>
     <div class="sources-bar">
         <span>Sources:</span>
@@ -49,6 +49,18 @@
     <div class="content">
         <div class="count-bar">Showing 10 vulnerabilities added to CISA KEV in the last 30 days</div>
         
+        <div class="vuln-card critical">
+            <div class="vuln-header">
+                <div>
+                    <div class="cve-id">CVE-2026-35273</div>
+                    <div class="vuln-product">Oracle —  PeopleSoft Enterprise PeopleTools</div>
+                </div>
+                <div class="cvss-badge">9.8 &mdash; CRITICAL</div>
+            </div>
+            <div class="vuln-desc">Oracle PeopleSoft Enterprise PeopleTools contains a missing authentication for critical function vulnerability which could allow an unauthenticated attacker to obtain takeover of PeopleSoft Enterprise PeopleTools.</div>
+            <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
+            <div class="vuln-meta">Added: 2026-06-12 &nbsp;·&nbsp; CISA due date: 2026-06-15 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
+        </div>
         <div class="vuln-card critical">
             <div class="vuln-header">
                 <div>
@@ -154,18 +166,6 @@
                 <div class="cvss-badge">7.8 &mdash; HIGH</div>
             </div>
             <div class="vuln-desc">Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.</div>
-            <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
-            <div class="vuln-meta">Added: 2026-06-02 &nbsp;·&nbsp; CISA due date: 2026-06-05 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
-        </div>
-        <div class="vuln-card high">
-            <div class="vuln-header">
-                <div>
-                    <div class="cve-id">CVE-2025-48595</div>
-                    <div class="vuln-product">Android — Framework</div>
-                </div>
-                <div class="cvss-badge">8.4 &mdash; HIGH</div>
-            </div>
-            <div class="vuln-desc">Android Framework contains an integer overflow vulnerability that allows for code execution that could allow for local privilege escalation.</div>
             <div class="vuln-action">Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.</div>
             <div class="vuln-meta">Added: 2026-06-02 &nbsp;·&nbsp; CISA due date: 2026-06-05 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
         </div>
