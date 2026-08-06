@@ -39,7 +39,7 @@
 <body>
     <div class="header">
         <h1>Critical Security Vulnerabilities</h1>
-        <div class="header-meta">Last updated: August 05, 2026 at 08:14 UTC &nbsp;·&nbsp; Auto-refreshes daily via GitHub Actions</div>
+        <div class="header-meta">Last updated: August 06, 2026 at 08:13 UTC &nbsp;·&nbsp; Auto-refreshes daily via GitHub Actions</div>
     </div>
     <div class="sources-bar">
         <span>Sources:</span>
@@ -49,6 +49,18 @@
     <div class="content">
         <div class="count-bar">Showing 10 vulnerabilities added to CISA KEV in the last 30 days</div>
         
+        <div class="vuln-card critical">
+            <div class="vuln-header">
+                <div>
+                    <div class="cve-id">CVE-2026-63077</div>
+                    <div class="vuln-product">JetBrains — TeamCity</div>
+                </div>
+                <div class="cvss-badge">9.8 &mdash; CRITICAL</div>
+            </div>
+            <div class="vuln-desc">JetBrains TeamCity contains a deserialization of untrusted data vulnerability that could allow unauthenticated remote code execution via the agent polling protocol.</div>
+            <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
+            <div class="vuln-meta">Added: 2026-08-05 &nbsp;·&nbsp; CISA due date: 2026-08-08 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
+        </div>
         <div class="vuln-card high">
             <div class="vuln-header">
                 <div>
@@ -61,13 +73,13 @@
             <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
             <div class="vuln-meta">Added: 2026-08-04 &nbsp;·&nbsp; CISA due date: 2026-08-07 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
         </div>
-        <div class="vuln-card high">
+        <div class="vuln-card critical">
             <div class="vuln-header">
                 <div>
                     <div class="cve-id">CVE-2026-34486</div>
                     <div class="vuln-product">Apache — Tomcat</div>
                 </div>
-                <div class="cvss-badge">7.5 &mdash; HIGH</div>
+                <div class="cvss-badge">9.8 &mdash; CRITICAL</div>
             </div>
             <div class="vuln-desc">Apache Tomcat contains a missing encryption of sensitive data vulnerability that allows the bypass of the EncryptInterceptor.</div>
             <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
@@ -156,18 +168,6 @@
             <div class="vuln-desc">Microsoft SharePoint contains a deserialization of untrusted data vulnerability which could allow an unauthorized attacker to execute code over a network.</div>
             <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
             <div class="vuln-meta">Added: 2026-07-22 &nbsp;·&nbsp; CISA due date: 2026-07-25 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
-        </div>
-        <div class="vuln-card medium">
-            <div class="vuln-header">
-                <div>
-                    <div class="cve-id">CVE-2026-60137</div>
-                    <div class="vuln-product">WordPress — Core</div>
-                </div>
-                <div class="cvss-badge">5.9 &mdash; MEDIUM</div>
-            </div>
-            <div class="vuln-desc">WordPress Core contains a SQL injection vulnerability when a plugin or theme passes untrusted input to the parameter. This vulnerability can be chained with CVE-2026-63030 to allow an unauthenticated attacker to gain remote code execution on default WordPress installations.</div>
-            <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
-            <div class="vuln-meta">Added: 2026-07-21 &nbsp;·&nbsp; CISA due date: 2026-08-04 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
         </div>
     </div>
     <footer>Data from CISA KEV &amp; NIST NVD &nbsp;·&nbsp; Updated automatically every day &nbsp;·&nbsp; Free &amp; open source</footer>
