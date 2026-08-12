@@ -39,7 +39,7 @@
 <body>
     <div class="header">
         <h1>Critical Security Vulnerabilities</h1>
-        <div class="header-meta">Last updated: August 11, 2026 at 06:46 UTC &nbsp;·&nbsp; Auto-refreshes daily via GitHub Actions</div>
+        <div class="header-meta">Last updated: August 12, 2026 at 07:06 UTC &nbsp;·&nbsp; Auto-refreshes daily via GitHub Actions</div>
     </div>
     <div class="sources-bar">
         <span>Sources:</span>
@@ -49,6 +49,42 @@
     <div class="content">
         <div class="count-bar">Showing 10 vulnerabilities added to CISA KEV in the last 30 days</div>
         
+        <div class="vuln-card high">
+            <div class="vuln-header">
+                <div>
+                    <div class="cve-id">CVE-2026-20349</div>
+                    <div class="vuln-product">Cisco — Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) </div>
+                </div>
+                <div class="cvss-badge">8.6 &mdash; HIGH</div>
+            </div>
+            <div class="vuln-desc">Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) contain a heap inspection vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.</div>
+            <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
+            <div class="vuln-meta">Added: 2026-08-11 &nbsp;·&nbsp; CISA due date: 2026-08-14 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
+        </div>
+        <div class="vuln-card high">
+            <div class="vuln-header">
+                <div>
+                    <div class="cve-id">CVE-2026-68820</div>
+                    <div class="vuln-product">Microsoft — Windows Ancillary Function Driver for WinSock </div>
+                </div>
+                <div class="cvss-badge">7.0 &mdash; HIGH</div>
+            </div>
+            <div class="vuln-desc">Microsoft Windows Ancillary Function Driver for WinSock contains a use-after-free vulnerability that allows an authorized attacker to elevate privileges locally.</div>
+            <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
+            <div class="vuln-meta">Added: 2026-08-11 &nbsp;·&nbsp; CISA due date: 2026-08-25 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
+        </div>
+        <div class="vuln-card critical">
+            <div class="vuln-header">
+                <div>
+                    <div class="cve-id">CVE-2026-72898</div>
+                    <div class="vuln-product">Metabase — Metabase</div>
+                </div>
+                <div class="cvss-badge">10.0 &mdash; CRITICAL</div>
+            </div>
+            <div class="vuln-desc">Metabase contains a SQL Injection vulnerability that allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, which can give them administrator access to the instance. From there, the attacker could change the application configuration, steal stored credentials for the connected databases, read any data accessible through those connections, and export data.</div>
+            <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
+            <div class="vuln-meta">Added: 2026-08-11 &nbsp;·&nbsp; CISA due date: 2026-08-14 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
+        </div>
         <div class="vuln-card critical">
             <div class="vuln-header">
                 <div>
@@ -132,42 +168,6 @@
             <div class="vuln-desc">Cisco Secure Firewall Management Center (FMC) formerly known as Firepower Management Center contains a use of hard-coded password vulnerability that could allow an unauthenticated, remote attacker to log in to an affected device using a low-privileged account to access sensitive data within the impacted systems.</div>
             <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
             <div class="vuln-meta">Added: 2026-07-29 &nbsp;·&nbsp; CISA due date: 2026-08-01 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
-        </div>
-        <div class="vuln-card medium">
-            <div class="vuln-header">
-                <div>
-                    <div class="cve-id">CVE-2025-68686</div>
-                    <div class="vuln-product">Fortinet — FortiOS</div>
-                </div>
-                <div class="cvss-badge">5.9 &mdash; MEDIUM</div>
-            </div>
-            <div class="vuln-desc">Fortinet FortiOS contains an exposure of sensitive information to an unauthorized actor vulnerability. This may allow a remote unauthenticated attacker to bypass the patch developed for the symbolic link persistency mechanism observed in some post-exploit cases, via crafted HTTP requests. An attacker would need first to have compromised the product via another vulnerability, at filesystem level.</div>
-            <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
-            <div class="vuln-meta">Added: 2026-07-27 &nbsp;·&nbsp; CISA due date: 2026-08-10 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
-        </div>
-        <div class="vuln-card critical">
-            <div class="vuln-header">
-                <div>
-                    <div class="cve-id">CVE-2026-16812</div>
-                    <div class="vuln-product">Arista — VeloCloud Orchestrator</div>
-                </div>
-                <div class="cvss-badge">10.0 &mdash; CRITICAL</div>
-            </div>
-            <div class="vuln-desc">Arista VeloCloud Orchestrator On-Prem contains an OS command injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.</div>
-            <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
-            <div class="vuln-meta">Added: 2026-07-27 &nbsp;·&nbsp; CISA due date: 2026-07-30 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
-        </div>
-        <div class="vuln-card critical">
-            <div class="vuln-header">
-                <div>
-                    <div class="cve-id">CVE-2026-16232</div>
-                    <div class="vuln-product">Check Point — SmartConsole</div>
-                </div>
-                <div class="cvss-badge">9.8 &mdash; CRITICAL</div>
-            </div>
-            <div class="vuln-desc">Check Point SmartConsole contains an improper authentication vulnerability which could allow an unauthenticated remote attacker to obtain an application login token and use it to authenticate with full administrative privileges.</div>
-            <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
-            <div class="vuln-meta">Added: 2026-07-22 &nbsp;·&nbsp; CISA due date: 2026-07-25 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
         </div>
     </div>
     <footer>Data from CISA KEV &amp; NIST NVD &nbsp;·&nbsp; Updated automatically every day &nbsp;·&nbsp; Free &amp; open source</footer>
