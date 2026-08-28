@@ -39,7 +39,7 @@
 <body>
     <div class="header">
         <h1>Critical Security Vulnerabilities</h1>
-        <div class="header-meta">Last updated: August 27, 2026 at 17:03 UTC &nbsp;·&nbsp; Auto-refreshes daily via GitHub Actions</div>
+        <div class="header-meta">Last updated: August 28, 2026 at 17:51 UTC &nbsp;·&nbsp; Auto-refreshes daily via GitHub Actions</div>
     </div>
     <div class="sources-bar">
         <span>Sources:</span>
@@ -49,6 +49,42 @@
     <div class="content">
         <div class="count-bar">Showing 10 vulnerabilities added to CISA KEV in the last 30 days</div>
         
+        <div class="vuln-card critical">
+            <div class="vuln-header">
+                <div>
+                    <div class="cve-id">CVE-2023-49105</div>
+                    <div class="vuln-product">ownCloud — ownCloud</div>
+                </div>
+                <div class="cvss-badge">9.8 &mdash; CRITICAL</div>
+            </div>
+            <div class="vuln-desc">ownCloud contains an improper authentication vulnerability that allows an attacker to access, modify, or delete any file without authentication if the username of a victim is known, and the victim has no signing-key configured.</div>
+            <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
+            <div class="vuln-meta">Added: 2026-08-27 &nbsp;·&nbsp; CISA due date: 2026-08-30 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
+        </div>
+        <div class="vuln-card high">
+            <div class="vuln-header">
+                <div>
+                    <div class="cve-id">CVE-2026-53362</div>
+                    <div class="vuln-product">Linux — Kernel</div>
+                </div>
+                <div class="cvss-badge">7.8 &mdash; HIGH</div>
+            </div>
+            <div class="vuln-desc">Linux Kernel contains an unspecified vulnerability that can allow for privilege escalation via IPv6 networking subsystem. This vulnerability can impact multiple products, including but not limited to Suse, Red Hat, and other products using Linux. </div>
+            <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
+            <div class="vuln-meta">Added: 2026-08-27 &nbsp;·&nbsp; CISA due date: 2026-08-30 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
+        </div>
+        <div class="vuln-card medium">
+            <div class="vuln-header">
+                <div>
+                    <div class="cve-id">CVE-2026-66384</div>
+                    <div class="vuln-product">JFrog — Artifactory</div>
+                </div>
+                <div class="cvss-badge">5.3 &mdash; MEDIUM</div>
+            </div>
+            <div class="vuln-desc">JFrog Artifactory contains an improper limitation of a pathname to a restricted directory vulnerability. This can allow an authenticated user to write data outside the intended Docker cache path under specific remote-repository conditions.</div>
+            <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
+            <div class="vuln-meta">Added: 2026-08-27 &nbsp;·&nbsp; CISA due date: 2026-09-10 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
+        </div>
         <div class="vuln-card high">
             <div class="vuln-header">
                 <div>
@@ -132,42 +168,6 @@
             <div class="vuln-desc">Gitea contains a code injection vulnerability that allows an attacker with repository write access to send a malicious patch to the diffpatch API endpoint to plant an executable Git hook and run shell commands as the Gitea service account.</div>
             <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
             <div class="vuln-meta">Added: 2026-08-25 &nbsp;·&nbsp; CISA due date: 2026-08-28 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
-        </div>
-        <div class="vuln-card critical">
-            <div class="vuln-header">
-                <div>
-                    <div class="cve-id">CVE-2026-21962</div>
-                    <div class="vuln-product">Oracle — HTTP Server and Oracle Weblogic Server Proxy Plug-in</div>
-                </div>
-                <div class="cvss-badge">10.0 &mdash; CRITICAL</div>
-            </div>
-            <div class="vuln-desc">Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in contain an improper access control vulnerability that can result in unauthorized creation, deletion or modification access to critical data as well as unauthorized access to critical data or complete access to all Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in accessible data.</div>
-            <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
-            <div class="vuln-meta">Added: 2026-08-24 &nbsp;·&nbsp; CISA due date: 2026-08-27 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
-        </div>
-        <div class="vuln-card high">
-            <div class="vuln-header">
-                <div>
-                    <div class="cve-id">CVE-2026-73570</div>
-                    <div class="vuln-product">Synacor — Zimbra Collaboration Suite (ZCS)</div>
-                </div>
-                <div class="cvss-badge">8.9 &mdash; HIGH</div>
-            </div>
-            <div class="vuln-desc">Zimbra Collaboration Suite (ZCS) contains an OS command injection vulnerability which could allow an unauthenticated attacker to send specially crafted SMTP requests that may result in execution of arbitrary operating system commands as the Zimbra user.</div>
-            <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
-            <div class="vuln-meta">Added: 2026-08-21 &nbsp;·&nbsp; CISA due date: 2026-08-24 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
-        </div>
-        <div class="vuln-card critical">
-            <div class="vuln-header">
-                <div>
-                    <div class="cve-id">CVE-2026-72530</div>
-                    <div class="vuln-product">TrueConf — Server</div>
-                </div>
-                <div class="cvss-badge">9.0 &mdash; CRITICAL</div>
-            </div>
-            <div class="vuln-desc">TrueConf Server contains a code injection vulnerability that could allow an unauthorized remote attacker with network access via port 4307/TCP to use a specially crafted script to break out of the isolated environment and execute arbitrary code on the host system.</div>
-            <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
-            <div class="vuln-meta">Added: 2026-08-20 &nbsp;·&nbsp; CISA due date: 2026-09-03 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
         </div>
     </div>
     <footer>Data from CISA KEV &amp; NIST NVD &nbsp;·&nbsp; Updated automatically every day &nbsp;·&nbsp; Free &amp; open source</footer>
