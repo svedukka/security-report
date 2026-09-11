@@ -39,7 +39,7 @@
 <body>
     <div class="header">
         <h1>Critical Security Vulnerabilities</h1>
-        <div class="header-meta">Last updated: September 10, 2026 at 10:13 UTC &nbsp;·&nbsp; Auto-refreshes daily via GitHub Actions</div>
+        <div class="header-meta">Last updated: September 11, 2026 at 10:11 UTC &nbsp;·&nbsp; Auto-refreshes daily via GitHub Actions</div>
     </div>
     <div class="sources-bar">
         <span>Sources:</span>
@@ -52,10 +52,34 @@
         <div class="vuln-card ">
             <div class="vuln-header">
                 <div>
+                    <div class="cve-id">CVE-2026-86060</div>
+                    <div class="vuln-product">MikroTik — RouterOS</div>
+                </div>
+                <div class="cvss-badge">N/A &mdash; UNKNOWN</div>
+            </div>
+            <div class="vuln-desc">MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacked to change the trusted RouterOS policy mask, leading to privilege escalation.</div>
+            <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
+            <div class="vuln-meta">Added: 2026-09-10 &nbsp;·&nbsp; CISA due date: 2026-09-13 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
+        </div>
+        <div class="vuln-card ">
+            <div class="vuln-header">
+                <div>
+                    <div class="cve-id">CVE-2026-67277</div>
+                    <div class="vuln-product">MikroTik — RouterOS</div>
+                </div>
+                <div class="cvss-badge">N/A &mdash; UNKNOWN</div>
+            </div>
+            <div class="vuln-desc">MikroTik RouterOS contains a missing authenticaion for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.</div>
+            <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
+            <div class="vuln-meta">Added: 2026-09-10 &nbsp;·&nbsp; CISA due date: 2026-09-13 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
+        </div>
+        <div class="vuln-card critical">
+            <div class="vuln-header">
+                <div>
                     <div class="cve-id">CVE-2026-19490</div>
                     <div class="vuln-product">Citrix — NetScaler</div>
                 </div>
-                <div class="cvss-badge">N/A &mdash; UNKNOWN</div>
+                <div class="cvss-badge">9.8 &mdash; CRITICAL</div>
             </div>
             <div class="vuln-desc">Citrix NetScaler ADC and NetScaler Gateway contain an authentication-bypass vulnerability involving an alternate path or channel. When the NetScaler appliance is configured as an AAA virtual server or as a Gateway (SSL VPN, ICA Proxy, CVPN, or RDP Proxy), an unauthenticated remote threat actor may be able to bypass authentication.</div>
             <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
@@ -144,30 +168,6 @@
             <div class="vuln-desc">Microsoft Windows Advanced Local Procedure Call contains a heap-based buffer overflow vulnerability that allows an attacker to elevate privileges locally.</div>
             <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
             <div class="vuln-meta">Added: 2026-09-08 &nbsp;·&nbsp; CISA due date: 2026-09-22 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
-        </div>
-        <div class="vuln-card high">
-            <div class="vuln-header">
-                <div>
-                    <div class="cve-id">CVE-2026-85046</div>
-                    <div class="vuln-product">Google — Chromium V8</div>
-                </div>
-                <div class="cvss-badge">8.8 &mdash; HIGH</div>
-            </div>
-            <div class="vuln-desc">Google Chromium V8 contains a type confusion vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.</div>
-            <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
-            <div class="vuln-meta">Added: 2026-09-04 &nbsp;·&nbsp; CISA due date: 2026-09-18 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
-        </div>
-        <div class="vuln-card high">
-            <div class="vuln-header">
-                <div>
-                    <div class="cve-id">CVE-2026-59822</div>
-                    <div class="vuln-product">BerriAI — LiteLLM</div>
-                </div>
-                <div class="cvss-badge">8.2 &mdash; HIGH</div>
-            </div>
-            <div class="vuln-desc">BerriAI LiteLLM contains an improper authentication vulnerability in the MCP Streamable HTTP endpoint that could allow an unauthenticated attacker to establish an authenticated MCP session using an arbitrary Bearer token.</div>
-            <div class="vuln-action">Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.</div>
-            <div class="vuln-meta">Added: 2026-09-02 &nbsp;·&nbsp; CISA due date: 2026-09-16 &nbsp;·&nbsp; Source: CISA KEV + NIST NVD</div>
         </div>
     </div>
     <footer>Data from CISA KEV &amp; NIST NVD &nbsp;·&nbsp; Updated automatically every day &nbsp;·&nbsp; Free &amp; open source</footer>
